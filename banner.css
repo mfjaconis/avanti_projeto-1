@@ -1,0 +1,26 @@
+.promoBanner {
+	background-color: var(--primary-color);
+	color: var(--text-secondary-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 30px;
+	padding: 4px 0px;
+}
+
+.promoBanner-text {
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 22px;
+}
+
+.promoBanner-price {
+	background-color: #6220c0;
+	border-radius: 5px;
+	font-weight: bold;
+	padding: 0 5px;
+}
+
+.promoBanner-code {
+	font-style: italic;
+}
