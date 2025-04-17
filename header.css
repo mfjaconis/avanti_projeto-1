@@ -1,5 +1,7 @@
 .menu {
 	height: 118px;
+	display: flex;
+	justify-content: space-between;
 }
 
 .menu-search {
@@ -17,6 +19,63 @@
 	padding: 10px 24px;
 }
 
-.menu-search-input:focus {
-	border: none;
+.menu-search-input::-webkit-input-placeholder {
+	color: var(--text-primary-color);
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.menu-search-icon {
+	position: relative;
+	right: 36px;
+	cursor: pointer;
+}
+
+.menu-login {
+	display: inline-flex;
+	align-items: center;
+	gap: 24px;
+}
+
+.menu-login-client {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.menu-login-client p {
+	font-weight: 600;
+}
+
+.menu-login-client-icon {
+	width: 24px;
+	margin-right: 8px;
+	cursor: pointer;
+}
+
+.menu-cart {
+	display: flex;
+	position: relative;
+	padding: 10px;
+}
+
+.menu-login-cart-icon {
+	width: 24px;
+	cursor: pointer;
+}
+
+.menu-cart-quantity {
+	width: 21px;
+	height: 21px;
+	background-color: var(--primary-color);
+	text-align: center;
+	color: var(--text-secondary-color);
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 14px;
+	border-radius: 50%;
+	padding: 5px;
+	position: absolute;
+	right: 0;
+	top: 0;
 }
