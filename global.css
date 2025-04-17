@@ -4,7 +4,7 @@
 	--terceary-color: #5ec0be;
 	--text-primary-color: #000;
 	--text-secondary-color: #fff;
-	--text-terceary-color: #4f4f4f;
+	--text-terceary-color: #303030;
 }
 
 * {
@@ -12,6 +12,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	text-decoration: none;
+	list-style: none;
 	font-family: "Nunito Sans", sans-serif;
 	font-weight: 400;
 	font-size: 14px;
