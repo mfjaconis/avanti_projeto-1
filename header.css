@@ -1,0 +1,22 @@
+.menu {
+	height: 118px;
+}
+
+.menu-search {
+	padding: 22px;
+	display: flex;
+	align-items: center;
+}
+
+.menu-search-input {
+	width: 594px;
+	height: 40px;
+	border-radius: 10px;
+	border: 1px solid #ddd;
+	margin-left: 66px;
+	padding: 10px 24px;
+}
+
+.menu-search-input:focus {
+	border: none;
+}
