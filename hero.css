@@ -1,0 +1,40 @@
+.hero{
+    height: 510px;
+    background-color: var(--quaternary-color);
+}
+
+.hero-sale{
+    display: flex;
+    align-items: center;
+}
+
+.hero-sale-text{
+    text-align: center;
+}
+
+.hero-sale-text h2 b{
+    font-size: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.hero-sale-text h2 {
+    font-size: 100px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.hero-sale-text p {
+    color: var(--primary-color);
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+.hero-sale-text p span {
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0;
+}

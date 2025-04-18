@@ -2,6 +2,7 @@
 	--primary-color: #005cff;
 	--secondary-color: #00264e;
 	--terceary-color: #5ec0be;
+	--quaternary-color: #E7E7EA;
 	--text-primary-color: #000;
 	--text-secondary-color: #fff;
 	--text-terceary-color: #303030;
@@ -19,6 +20,6 @@
 }
 
 .container {
-	width: 1280px;
+	max-width: 1260px;
 	margin: 0 auto;
 }

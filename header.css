@@ -79,6 +79,11 @@
 	top: 0;
 }
 
+.menu-nav{
+	height: 22px;
+	margin-bottom: 18px;
+}
+
 .menu-nav-bar li a {
 	color: var(--text-primary-color);
 	line-height: 22px;
