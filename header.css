@@ -27,7 +27,6 @@
 .menu-search-icon {
 	position: relative;
 	right: 36px;
-	cursor: pointer;
 }
 
 .menu-login {
@@ -49,7 +48,6 @@
 .menu-login-client-icon {
 	width: 24px;
 	margin-right: 8px;
-	cursor: pointer;
 }
 
 .menu-cart {
@@ -60,7 +58,6 @@
 
 .menu-login-cart-icon {
 	width: 24px;
-	cursor: pointer;
 }
 
 .menu-cart-quantity {
@@ -87,7 +84,6 @@
 .menu-nav-bar li a {
 	color: var(--text-primary-color);
 	line-height: 22px;
-	cursor: pointer;
 	stroke: var(--text-primary-color);
 }
 
