@@ -1,0 +1,21 @@
+.carousel{
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel-content{
+    display: flex;
+}
+
+.carousel-content-card{
+    width: 238px;
+    height: 409px;
+    border-radius: 10px;
+    border: 1px solid #DDD;
+    margin: 17px;
+}
