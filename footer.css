@@ -1,0 +1,69 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    height: 386px;
+}
+
+.footer-primary{
+    width: 100%;
+    display: flex;
+    padding: 64px;
+    background: #F5F5F5;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content-navigation{
+    display: flex;
+    gap: 110px;
+}
+
+.footer-content-social{
+    margin-right: 142px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footer-content-social-icons{
+    display: flex;
+    gap: 40px;
+}
+
+.footer-content-navigation h4{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.footer-content-navigation-institutional{
+    width: 186px;
+    height: 112px;
+}
+
+.footer-content-navigation-help{
+    width: 173px;
+    height: 140px;
+}
+
+.footer-content-navigation-service{
+    width: 248px;
+    height: 126px;
+}
+
+.footer-content-navigation ul li h5{
+    color: var(--text-terceary-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.footer-payments{
+    display: flex;
+    justify-content: center;
+    padding: 68px 0;
+    gap: 35px;
+}

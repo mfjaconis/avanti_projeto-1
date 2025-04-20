@@ -54,6 +54,7 @@
 	display: flex;
 	position: relative;
 	padding: 10px;
+	cursor: pointer;
 }
 
 .menu-login-cart-icon {
