@@ -1,0 +1,61 @@
+.second-banner{
+    background-color: var(--bg-second-banner);
+    height: 819px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.second-banner-container{
+    display: flex;
+    justify-content: start;
+    width: 1117px;
+    gap: 49px;
+}
+
+.second-banner-information{
+    width: 476px;
+    height: 567px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 122px;
+}
+
+.second-banner-information-text{
+    display: flex;
+    align-items: center;
+}
+
+.second-banner-information h2{
+    color: #4F4F4F;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.second-banner-information-pin{
+    width: 90px;
+    height: 90px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    padding: 22px;
+}
+
+.second-banner-information-text p{
+    width: 360px;
+    color: #4F4F4F;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.9px;
+    margin-left: 20px;
+}
+
+.second-banner-mockup{
+    width: 652px;
+    padding-top: 41px;
+}
