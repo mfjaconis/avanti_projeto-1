@@ -122,7 +122,6 @@
 	}
 
 	.footer-content-navigation {
-		max-width: 375px;
 		flex-direction: column;
 		gap: 0;
 	}
