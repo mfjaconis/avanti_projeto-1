@@ -1,45 +1,45 @@
-.first-banner{
-    display: flex;
-    width: 1177px;
-    height: 747px;
-    margin: 0 auto;
-    margin-top: 96px;
-    margin-bottom: 55px;
+.first-banner {
+	display: flex;
+	width: 1177px;
+	height: 747px;
+	margin: 0 auto;
+	margin-top: 96px;
+	margin-bottom: 55px;
 }
 
-.first-banner-mockup{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--bg-first-banner);
-    min-width: 652px;
-    min-height: 747px;
+.first-banner-mockup {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--bg-first-banner);
+	min-width: 652px;
+	min-height: 747px;
 }
 
-.first-banner-mockup-image{
-    max-width: 524px;
-    max-height: 528px;
+.first-banner-mockup-image {
+	max-width: 524px;
+	max-height: 528px;
 }
 
-.first-banner-mockup-information{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 38px;
-    gap: 22px;
+.first-banner-mockup-information {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 38px;
+	gap: 22px;
 }
 
-.first-banner-mockup-information h2{
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 140%; 
-    letter-spacing: 1.2px;
-    text-transform: uppercase;
+.first-banner-mockup-information h2 {
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 140%;
+	letter-spacing: 1.2px;
+	text-transform: uppercase;
 }
 
-.first-banner-mockup-information p{
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 140%;
-    letter-spacing: 0.9px;
+.first-banner-mockup-information p {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 140%;
+	letter-spacing: 0.9px;
 }

@@ -2,12 +2,12 @@
 	--primary-color: #005cff;
 	--secondary-color: #00264e;
 	--terceary-color: #5ec0be;
-	--quaternary-color: #E7E7EA;
+	--quaternary-color: #e7e7ea;
 	--text-primary-color: #000;
 	--text-secondary-color: #fff;
 	--text-terceary-color: #303030;
-	--bg-first-banner: #C2C2C2;
-	--bg-second-banner: #DEDEDE;
+	--bg-first-banner: #c2c2c2;
+	--bg-second-banner: #dedede;
 }
 
 * {
@@ -26,7 +26,6 @@
 	margin: 0 auto;
 }
 
-button{
-    cursor: pointer;
+button {
+	cursor: pointer;
 }
-
