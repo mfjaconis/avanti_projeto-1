@@ -6,6 +6,7 @@ const carouselsData = {
             description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
             originalPrice: "100,00",
             offerPrice: "79,90",
+            offer: "10% OFF",
             installment: "10x de R$ 7,90",
           },
           {
@@ -14,6 +15,26 @@ const carouselsData = {
             description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
             originalPrice: "100,00",
             offerPrice: "79,90",
+            offer: "10% OFF",
+            installment: "10x de R$ 7,90",
+          },
+          
+          {
+            tag: "Novo",
+            imageSrc: "./images/modelo_lancamento.png",
+            description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
+            originalPrice: "100,00",
+            offerPrice: "79,90",
+            offer: "10% OFF",
+            installment: "10x de R$ 7,90",
+          },          
+          {
+            tag: "Novo",
+            imageSrc: "./images/modelo_lancamento.png",
+            description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
+            originalPrice: "100,00",
+            offerPrice: "79,90",
+            offer: "10% OFF",
             installment: "10x de R$ 7,90",
           },
           {
@@ -22,6 +43,7 @@ const carouselsData = {
             description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
             originalPrice: "100,00",
             offerPrice: "79,90",
+            offer: "10% OFF",
             installment: "10x de R$ 7,90",
           },
           {
@@ -30,6 +52,7 @@ const carouselsData = {
             description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
             originalPrice: "100,00",
             offerPrice: "79,90",
+            offer: "10% OFF",
             installment: "10x de R$ 7,90",
           },
           {
@@ -38,6 +61,7 @@ const carouselsData = {
             description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
             originalPrice: "100,00",
             offerPrice: "79,90",
+            offer: "10% OFF",
             installment: "10x de R$ 7,90",
           },
           {
@@ -46,6 +70,7 @@ const carouselsData = {
             description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
             originalPrice: "100,00",
             offerPrice: "79,90",
+            offer: "10% OFF",
             installment: "10x de R$ 7,90",
           },
           {
@@ -54,6 +79,7 @@ const carouselsData = {
             description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
             originalPrice: "100,00",
             offerPrice: "79,90",
+            offer: "10% OFF",
             installment: "10x de R$ 7,90",
           },
           {
@@ -62,6 +88,16 @@ const carouselsData = {
             description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
             originalPrice: "100,00",
             offerPrice: "79,90",
+            offer: "10% OFF",
+            installment: "10x de R$ 7,90",
+          },          
+          {
+            tag: "Novo",
+            imageSrc: "./images/modelo_lancamento.png",
+            description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
+            originalPrice: "100,00",
+            offerPrice: "79,90",
+            offer: "10% OFF",
             installment: "10x de R$ 7,90",
           },
           {
@@ -70,30 +106,7 @@ const carouselsData = {
             description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
             originalPrice: "100,00",
             offerPrice: "79,90",
-            installment: "10x de R$ 7,90",
-          },
-          {
-            tag: "Novo",
-            imageSrc: "./images/modelo_lancamento.png",
-            description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
-            originalPrice: "100,00",
-            offerPrice: "79,90",
-            installment: "10x de R$ 7,90",
-          },
-          {
-            tag: "Novo",
-            imageSrc: "./images/modelo_lancamento.png",
-            description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
-            originalPrice: "100,00",
-            offerPrice: "79,90",
-            installment: "10x de R$ 7,90",
-          },
-          {
-            tag: "Novo",
-            imageSrc: "./images/modelo_lancamento.png",
-            description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
-            originalPrice: "100,00",
-            offerPrice: "79,90",
+            offer: "10% OFF",
             installment: "10x de R$ 7,90",
           },
     ],
@@ -104,6 +117,7 @@ const carouselsData = {
         description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
         originalPrice: "100,00",
         offerPrice: "79,90",
+        offer: "10% OFF",
         installment: "10x de R$ 7,90",
       },
       {
@@ -112,6 +126,7 @@ const carouselsData = {
         description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
         originalPrice: "100,00",
         offerPrice: "79,90",
+        offer: "10% OFF",
         installment: "10x de R$ 7,90",
       },
       {
@@ -120,6 +135,7 @@ const carouselsData = {
         description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
         originalPrice: "100,00",
         offerPrice: "79,90",
+        offer: "10% OFF",
         installment: "10x de R$ 7,90",
       },
       {
@@ -128,6 +144,7 @@ const carouselsData = {
         description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
         originalPrice: "100,00",
         offerPrice: "79,90",
+        offer: "10% OFF",
         installment: "10x de R$ 7,90",
       },
       {
@@ -136,6 +153,7 @@ const carouselsData = {
         description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
         originalPrice: "100,00",
         offerPrice: "79,90",
+        offer: "10% OFF",
         installment: "10x de R$ 7,90",
       },
       {
@@ -144,6 +162,7 @@ const carouselsData = {
         description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
         originalPrice: "100,00",
         offerPrice: "79,90",
+        offer: "10% OFF",
         installment: "10x de R$ 7,90",
       },
       {
@@ -152,6 +171,7 @@ const carouselsData = {
         description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
         originalPrice: "100,00",
         offerPrice: "79,90",
+        offer: "10% OFF",
         installment: "10x de R$ 7,90",
       },
       {
@@ -160,6 +180,7 @@ const carouselsData = {
         description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
         originalPrice: "100,00",
         offerPrice: "79,90",
+        offer: "10% OFF",
         installment: "10x de R$ 7,90",
       },
       {
@@ -168,6 +189,7 @@ const carouselsData = {
         description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
         originalPrice: "100,00",
         offerPrice: "79,90",
+        offer: "10% OFF",
         installment: "10x de R$ 7,90",
       },
       {
@@ -176,6 +198,7 @@ const carouselsData = {
         description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
         originalPrice: "100,00",
         offerPrice: "79,90",
+        offer: "10% OFF",
         installment: "10x de R$ 7,90",
       },
       {
@@ -184,6 +207,7 @@ const carouselsData = {
         description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
         originalPrice: "100,00",
         offerPrice: "79,90",
+        offer: "10% OFF",
         installment: "10x de R$ 7,90",
       },
       {
@@ -192,6 +216,7 @@ const carouselsData = {
         description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
         originalPrice: "100,00",
         offerPrice: "79,90",
+        offer: "10% OFF",
         installment: "10x de R$ 7,90",
       },
       {
@@ -200,6 +225,7 @@ const carouselsData = {
         description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
         originalPrice: "100,00",
         offerPrice: "79,90",
+        offer: "10% OFF",
         installment: "10x de R$ 7,90",
       },
       {
@@ -208,6 +234,7 @@ const carouselsData = {
         description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
         originalPrice: "100,00",
         offerPrice: "79,90",
+        offer: "10% OFF",
         installment: "10x de R$ 7,90",
       },
     ]
@@ -232,14 +259,20 @@ const carouselsData = {
         const cardElement = document.createElement("div");
         cardElement.classList.add("carousel-content-card");
         cardElement.innerHTML = `
-          <div class="carousel-content-card-image">
-            <p class="carousel-content-card-tag">Novo</p>
-            <img src="${card.imageSrc}" alt="${card.description}" class="carousel-content-card-image-person" />
-          </div>
-          <h3 class="carousel-content-card-information">${card.description}</h3>
-          <span class="carousel-content-card-price">${card.originalPrice}</span>
-          <button>Comprar</button>
-        `;
+        <div class="carousel-content-card-image">
+          <p class="carousel-content-card-tag">${card.tag}</p>
+          <img src="${card.imageSrc}" alt="${card.description}" class="carousel-content-card-image-person" />
+        </div>
+        <h3 class="carousel-content-card-information">${card.description}</h3>
+        <span class="carousel-content-card-price">R$ ${card.originalPrice}</span>
+        <a class="carousel-content-card-offer">${card.offer}</a>
+        <h4>R$ ${card.offerPrice}</h4>
+        <p class="carousel-content-card-">
+          Ou em até
+          <span class="carousel-content-card-paymente">${card.installment}</span>
+        </p>
+        <button>Comprar</button>
+      `;
         container.appendChild(cardElement);
       }
   
