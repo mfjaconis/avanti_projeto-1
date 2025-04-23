@@ -4,6 +4,15 @@
 	justify-content: space-between;
 }
 
+.menu-big {
+	display: flex;
+	padding: 20px 0;
+}
+
+.menu-small {
+	display: none;
+}
+
 .menu-search {
 	display: flex;
 	align-items: center;
@@ -253,4 +262,41 @@
 	background-color: #656565;
 	color: var(--text-secondary-color);
 	font-size: 15px;
+}
+
+@media (max-width: 400px) {
+	.menu-big {
+		display: none;
+	}
+
+	.menu-small {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.menu-search {
+		justify-content: space-around;
+		margin-top: 20px;
+	}
+
+	.logo-small {
+		height: 26px;
+	}
+
+	.menu-search-input {
+		width: 361px;
+		height: 40px;
+		margin-left: 0;
+		margin-top: 20px;
+	}
+
+	.menu-search-icon {
+		position: absolute;
+		right: 20px;
+		top: 30px;
+	}
+
+	.menu-nav {
+		display: none;
+	}
 }

@@ -1,7 +1,7 @@
 .banner-avanti {
 	width: 100%;
 	height: 660px;
-	background-image: url(./images/banner-avanti.png);
+	background-image: url(../images/banner-avanti.png);
 	display: flex;
 	align-items: center;
 	justify-content: center;

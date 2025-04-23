@@ -38,3 +38,44 @@
 	text-transform: uppercase;
 	letter-spacing: 0;
 }
+
+@media (max-width: 400px) {
+	.hero {
+		max-height: 306px;
+	}
+
+	.hero-sale img {
+		max-width: 225px;
+		min-height: 306px;
+	}
+
+	.hero-sale-text {
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		right: 5px;
+	}
+	.hero-sale-text h2,
+	.hero-sale-text h2 b {
+		max-width: 133px;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		font-size: 40px;
+		line-height: 40px;
+	}
+
+	.hero-sale-text p {
+		font-size: 12px;
+		font-weight: 700;
+		letter-spacing: 0;
+		min-width: 139px;
+	}
+
+	.hero-sale-text p span {
+		min-width: 130px;
+		font-size: 32px;
+	}
+}

@@ -172,3 +172,48 @@
 	align-items: center;
 	position: relative;
 }
+
+@media (max-width: 400px) {
+	.carousel {
+		max-width: 390px;
+		padding: 0 20px;
+	}
+
+	.carousel-content-card {
+		display: none;
+	}
+
+	.carousel_container {
+		padding: 0 15px;
+	}
+
+	.carousel-content-card:nth-child(-n + 2) {
+		display: block;
+	}
+
+	.carousel-content-card {
+		width: 174px;
+	}
+
+	.carousel-content-card-image-person {
+		width: 158px;
+	}
+
+	.carousel-content-card-information {
+		width: 174px;
+		display: flex;
+		flex-wrap: wrap;
+		margin-bottom: 20px;
+	}
+
+	.carousel-content-card-offer {
+		width: 65px;
+		font-size: 11px;
+		height: 20px;
+	}
+
+	.carousel-content-card button {
+		width: 158px;
+		height: 40px;
+	}
+}

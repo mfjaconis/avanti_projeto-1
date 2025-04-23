@@ -24,3 +24,18 @@
 .promoBanner-code {
 	font-style: italic;
 }
+
+@media (max-width: 400px) {
+	.promoBanner {
+		height: 52px;
+		text-align: center;
+	}
+
+	.promoBanner-price {
+		border-radius: 0;
+	}
+
+	.promoBanner-code {
+		font-style: normal;
+	}
+}
