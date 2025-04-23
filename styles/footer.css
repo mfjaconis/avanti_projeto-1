@@ -163,4 +163,8 @@
 	.footer-content-navigation .title-big {
 		display: none;
 	}
+
+	.footer-payments {
+		flex-wrap: wrap;
+	}
 }
