@@ -162,8 +162,15 @@
     border-radius: 50%;
     background-color: #ccc;
     transition: background-color 0.3s ease;
+    cursor: pointer;
 }
 
 .circle.active {
     background-color: #303030;
 }
+
+.carousel-content-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
