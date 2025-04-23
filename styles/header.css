@@ -28,6 +28,8 @@
 .menu-search-icon {
 	position: relative;
 	right: 36px;
+	background: none;
+	border: none;
 }
 
 .menu-login {
@@ -234,4 +236,21 @@
 .dropdown-departamento h3 {
 	font-size: 16px;
 	font-weight: 700;
+}
+
+.search-result{
+	position: relative;
+	text-align: center;
+}
+
+.search-result p{
+	display: none;
+	position: absolute;
+	left: 200px;
+	padding: 10px ;
+	margin: 5px 0;
+	border-radius: 5px;
+	background-color: #656565;
+	color: var(--text-secondary-color);
+	font-size: 15px;
 }

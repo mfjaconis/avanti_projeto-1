@@ -279,7 +279,6 @@ const carouselsData = {
       updateBullets();
     }
   
-    // Atualização dos círculos indicadores (bullets)
     function updateBullets() {
       const totalPages = Math.ceil(data.length / itemsPerPage);
       bulletCircles.forEach((circle, index) => {
@@ -291,7 +290,6 @@ const carouselsData = {
       });
     }
   
-    // Eventos de clique
     nextButton.addEventListener("click", () => {
       const totalPages = Math.ceil(data.length / itemsPerPage);
       if (currentIndex / itemsPerPage < totalPages - 1) {
