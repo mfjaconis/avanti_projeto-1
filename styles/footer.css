@@ -97,3 +97,70 @@
 .footer-group img:nth-child(2) {
 	margin-right: 24px;
 }
+
+.title-small {
+	display: none;
+}
+
+@media (max-width: 500px) {
+	.footer-content {
+		flex-direction: column;
+		align-items: start;
+		justify-content: start;
+	}
+
+	.footer-primary {
+		padding: 0;
+		width: 390px;
+	}
+
+	.footer-content-social {
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		padding: 40px 0 48px;
+	}
+
+	.footer-content-navigation {
+		max-width: 375px;
+		flex-direction: column;
+		gap: 0;
+	}
+
+	.footer-content-navigation .title-small {
+		cursor: pointer;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.footer-content-navigation ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: none;
+	}
+
+	.footer-content-navigation ul.open {
+		display: block;
+		flex-direction: column;
+	}
+
+	.footer-content-navigation {
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+	}
+
+	.footer-content-navigation-institutional,
+	.footer-content-navigation-help,
+	.footer-content-navigation-service {
+		width: 375px;
+		padding: 0 20px;
+		height: auto;
+		border: 1px solid var(--bg-first-banner);
+	}
+
+	.footer-content-navigation .title-big {
+		display: none;
+	}
+}

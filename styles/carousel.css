@@ -173,10 +173,10 @@
 	position: relative;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
 	.carousel {
 		max-width: 390px;
-		padding: 0 20px;
+		padding: 0 13px;
 	}
 
 	.carousel-content-card {
@@ -215,5 +215,22 @@
 	.carousel-content-card button {
 		width: 158px;
 		height: 40px;
+	}
+
+	.carousel-content {
+		max-width: 390px;
+		gap: 5px;
+	}
+
+	.carousel-content-button-next {
+		display: none;
+	}
+
+	.carousel-content-button-back {
+		display: none;
+	}
+
+	#carousel-2 {
+		display: none;
 	}
 }
