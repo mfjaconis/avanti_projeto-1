@@ -37,16 +37,29 @@
     <header>
         <div class="menu-small container">
             <div class="menu-search">
-                <a href="">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
-                        <line x1="1" y1="12.4998" x2="22.7185" y2="12.4998" stroke="black" stroke-width="2"
-                            stroke-linecap="round" />
-                        <line x1="1" y1="23.1921" x2="22.7185" y2="23.1921" stroke="black" stroke-width="2"
-                            stroke-linecap="round" />
-                        <line x1="1" y1="1.80762" x2="22.7185" y2="1.80762" stroke="black" stroke-width="2"
-                            stroke-linecap="round" />
-                    </svg>
-                </a>
+                <div class="dropdown">
+                    <button id="btn-menu-small">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                            <line x1="1" y1="12.4998" x2="22.7185" y2="12.4998" stroke="black" stroke-width="2"
+                                stroke-linecap="round" />
+                            <line x1="1" y1="23.1921" x2="22.7185" y2="23.1921" stroke="black" stroke-width="2"
+                                stroke-linecap="round" />
+                            <line x1="1" y1="1.80762" x2="22.7185" y2="1.80762" stroke="black" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+                    </button>
+                    <div id="small-menu" class="dropdown-menu">
+                        <a href="#">Toda as categorias</a>
+                        <a href="#">Departamento</a>
+                        <a href="#">Departamento</a>
+                        <a href="#">Departamento</a>
+                        <a href="#">Departamento</a>
+                        <a href="#">Departamento</a>
+                        <a href="#">Departamento</a>
+                        <a href="#">Departamento</a>
+                        <a href="#">Departamento</a>
+                    </div>
+                </div>
 
                 <img src="./images/logo.svg" alt="Logo da empresa Avanti" class="logo-small" />
 
@@ -463,6 +476,7 @@
     <script src="./scripts/carousel.js"></script>
     <script src="./scripts/search.js"></script>
     <script src="./scripts/acordion.js"></script>
+    <script src="./scripts/dropdown.js"></script>
 
 </body>
 
